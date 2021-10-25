@@ -6,7 +6,7 @@
 }
 
 .logo_inshorts img{
-    height: 8vh;
+    height: 8vh !important;
     cursor: pointer;
 }
 

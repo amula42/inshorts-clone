@@ -1,8 +1,9 @@
 import { Container } from '@mui/material';
 import React from 'react';
+import NewsCard from '../newscard/NewsCard';
 import '../newscontent/NewsContent.css';
 
-const NewsContent = () => {
+const NewsContent = ({loadMore,setLoadMore,newsResults}) => {
     return (
         <>
             <Container maxWidth="md">
@@ -24,6 +25,18 @@ const NewsContent = () => {
                         src="/assets/playstore.png"
                     />
                     </div>
+                    <NewsCard />
+                    {loadMore <= newsResults && (
+                        <>
+                            <hr />
+                            <button
+                            className="loadMore"
+                            onClick={() => setLoadMore(loadMore + 20)}
+                            >
+                            Load More
+                            </button>
+                        </>
+                    )}
                 </div>
             </Container>
         </>

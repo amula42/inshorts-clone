@@ -3,9 +3,10 @@ import Hamburger from './Hamburger';
 import './Navinshorts.css';
 
 const Navinshorts = () => {
+
     return (
         <>
-            <div className="inav">
+            <div id="nav_bar" className="inav">
                 <div className="menu">
                     <Hamburger />
                 </div>
