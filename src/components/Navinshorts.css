@@ -5,6 +5,13 @@
     align-items: center;
 }
 
+.scrolled{
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    transition: 1s;
+}
+
 .logo_inshorts img{
     height: 8vh !important;
     cursor: pointer;

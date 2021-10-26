@@ -11,7 +11,7 @@ const NewsContent = ({loadMore,setLoadMore,newsResults}) => {
                     <div className="downloadMessage">
                     <span className="downloadText">
                         For the best experience use
-                        <a href="https://inshorts.com/mobile" target="__blank" style={{color:'white',textDecoration:'none',fontWeight: 500}}> inshorts </a>
+                        <a href="/" target="__blank" style={{color:'white',textDecoration:'none',fontWeight: 500}}> inshorts </a>
                         app on your smartphone
                     </span>
                     <img
