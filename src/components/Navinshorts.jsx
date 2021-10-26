@@ -24,7 +24,9 @@ const Navinshorts = () => {
                     <Hamburger />
                 </div>
                 <div className="logo_inshorts">
-                    <img src="/assets/logo_inshorts.png" alt="logo_inshorts" />
+                    <a href="/">
+                        <img src="/assets/logo_inshorts.png" alt="logo_inshorts" />
+                    </a>
                 </div>
             </div>
         </>
